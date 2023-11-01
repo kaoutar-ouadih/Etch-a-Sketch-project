@@ -5,7 +5,7 @@ for (let i = 0; i < 256; i++){
     div.textContent = 'hi';
     div.style.minWidth = '35px';
     console.log(div.style.minWidth);
-    div.style.height = '35px';
+    div.style.minHeight = '35px';
     div.classList.add('divs');
     // div.style.backgroundColor = 'red';
     container.appendChild(div);
@@ -25,10 +25,10 @@ btn.addEventListener('click', ()=> {
     for (let i = 0; i < sqrtNumGrids; i++){
         const div = document.createElement('div');
         // div.textContent = 'hi';
-        let minwidth = 736/+numGrids;
-        let hei = 736/+numGrids;
+        let minwidth = 560/+numGrids;
+        let hei = 560/+numGrids;
         div.style.minWidth = `${minwidth}px`;
-        div.style.height = `${hei}px`;
+        div.style.minHeight = `${hei}px`;
         div.classList.add('divs');
         // div.style.backgroundColor = 'red';
         container.appendChild(div);

@@ -3,9 +3,9 @@ const container = document.querySelector('#container');
 for (let i = 0; i < 256; i++){
     const div = document.createElement('div');
     div.textContent = 'hi';
-    div.style.minWidth = '46px';
+    div.style.minWidth = '35px';
     console.log(div.style.minWidth);
-    div.style.height = '46px';
+    div.style.height = '35px';
     div.classList.add('divs');
     // div.style.backgroundColor = 'red';
     container.appendChild(div);

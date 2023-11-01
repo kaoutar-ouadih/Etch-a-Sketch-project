@@ -1,6 +1,6 @@
 #container{
-    width: 736px;
-    height: 736px;
+    width: 560px;
+    height: 560px;
     display: flex;
     flex-wrap: wrap;
     border: 2px solid #ccc;

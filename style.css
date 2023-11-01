@@ -1,0 +1,12 @@
+#container{
+    width: 736px;
+    height: 736px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #ccc;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -2,7 +2,6 @@ const container = document.querySelector('#container');
 //creating 16 * 16 div
 for (let i = 0; i < 256; i++){
     const div = document.createElement('div');
-    div.textContent = 'hi';
     div.style.minWidth = '35px';
     console.log(div.style.minWidth);
     div.style.minHeight = '35px';
